@@ -11,7 +11,7 @@ function Parent() {
   let [number, setNumber] = useState(0);
 
   const restState = () => {
-    setNumber(number + 1);
+    setNumber(number + 1 + 2);
   };
 
   return (
