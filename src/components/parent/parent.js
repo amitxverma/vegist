@@ -18,6 +18,7 @@ function Parent() {
     <>
       <button onClick={restState}>reset</button>
       <Child key={number} />
+      <div>agagsahsgagsagg</div>
       {console.log(number)}
     </>
   );
